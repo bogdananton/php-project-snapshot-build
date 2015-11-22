@@ -1,4 +1,4 @@
-TL:DR; When pushing into a repo, a hook will trigger a process to clone/include dependencies using composer and then commit all files and push to a "build" repo.
+> When pushing into a repo, a hook will trigger a process to clone/include dependencies using composer and then commit all files and push to a "build" repo.
 
 ----
 
@@ -57,7 +57,9 @@ The build will:
 
 ----
 
-@todo check difference / add a git differ between branches (original dev vs build)
-@todo remove doc,tests and other folders from dependencies
-@todo add a git-ls to the build repo
-@todo if proof-of-concept is valid, expose history and build triggers (launching the callback) via an API / web frontend
+#### @todo
+
+- check difference / add a git differ between branches (original dev vs build)
+- remove doc,tests and other folders from dependencies
+- add a git-ls to the build repo
+- expose history and build triggers (launching the callback) via an API / web frontend
